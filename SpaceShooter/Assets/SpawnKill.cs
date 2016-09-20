@@ -4,98 +4,69 @@ using System.Collections;
 public class SpawnKill : MonoBehaviour {
 
 	public GameObject enemy1;
-
 	void Start (){
-		StartCoroutine ("waitSeconds");
-		GameObject temp = Instantiate (enemy1, transform.position, transform.rotation) as GameObject;
-		temp.GetComponent<Rigidbody2D> ();
+		//		StartCoroutine ("waitSeconds");
+		//		Instantiate (enemy2, transform.position, transform.rotation);
+		InvokeRepeating("SpawnEnemy", 0f, 3f);
+	}
 
+	void SpawnEnemy() {
+		Instantiate (enemy1, transform.position, transform.rotation);
 	}
 
 	IEnumerator waitSeconds() {
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
+		yield return new WaitForSeconds (7);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (9);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
+		yield return new WaitForSeconds (6);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (1);
+		yield return new WaitForSeconds (7);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (.5f);
+		yield return new WaitForSeconds (9);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
+		yield return new WaitForSeconds (6);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (7);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
+		yield return new WaitForSeconds (9);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (1);
+		yield return new WaitForSeconds (6);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (.5f);
+		yield return new WaitForSeconds (7);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
+		yield return new WaitForSeconds (9);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (6);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
+		yield return new WaitForSeconds (7);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (1);
+		yield return new WaitForSeconds (9);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (.5f);
+		yield return new WaitForSeconds (6);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
+		yield return new WaitForSeconds (7);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (9);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
+		yield return new WaitForSeconds (6);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (1);
+		yield return new WaitForSeconds (7);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (.5f);
+		yield return new WaitForSeconds (9);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
+		yield return new WaitForSeconds (6);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (7);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
+		yield return new WaitForSeconds (9);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (1);
+		yield return new WaitForSeconds (6);
 		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (.5f);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (2);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (1);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (.5f);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (2);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (1);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (.5f);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (2);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (3);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (1);
-		Instantiate (enemy1, transform.position, transform.rotation);
-		yield return new WaitForSeconds (.5f);
-		Instantiate (enemy1, transform.position, transform.rotation);
-	
+
 	}
+
 
 }
 

@@ -1,6 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SpawnKill.cs">
+    <Files>
+      <File FileName="Assets/KillOtherObject.cs" Line="9" Column="1" />
+      <File FileName="Assets/SpawnKill.cs" Line="14" Column="22" />
+      <File FileName="Assets/SpawnKillBiggerEnemy.cs" Line="60" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

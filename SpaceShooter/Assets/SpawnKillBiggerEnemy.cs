@@ -6,7 +6,12 @@ public class SpawnKillBiggerEnemy : MonoBehaviour {
 	public GameObject enemy2;
 
 	void Start (){
-		StartCoroutine ("waitSeconds");
+//		StartCoroutine ("waitSeconds");
+//		Instantiate (enemy2, transform.position, transform.rotation);
+		InvokeRepeating("SpawnEnemy", 0f, 3f);
+	}
+
+	void SpawnEnemy() {
 		Instantiate (enemy2, transform.position, transform.rotation);
 	}
 
