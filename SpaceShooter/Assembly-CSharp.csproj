@@ -45,7 +45,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BulletController.cs" />
+     <Compile Include="Assets\KillOtherObject.cs" />
+     <Compile Include="Assets\Scripts\enemy2.cs" />
+     <Compile Include="Assets\ShipKillBullet.cs" />
      <Compile Include="Assets\ShipShoot.cs" />
+     <Compile Include="Assets\SpawnKill.cs" />
+     <Compile Include="Assets\SpawnKillBiggerEnemy.cs" />
+     <Compile Include="Assets\SpawnKillMini.cs" />
+     <Compile Include="Assets\shipMove.cs" />
+     <Compile Include="Assets\spawnEnemyMini.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
